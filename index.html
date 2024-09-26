@@ -123,6 +123,19 @@
               font-size :1.2em ;/* Ajusta el tamaño de los subencabezados*/
           }
       }
+        .email-link {
+    background-color: rgba(200, 200, 200, 0.9); /* Color de fondo gris más oscuro */
+    padding: 1px 2px; /* Ajustamos el espaciado alrededor del texto para hacerlo más estrecho */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transición suave para hover */
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); /* Sombreado inicial más sutil y estrecho */
+}
+
+.email-link:hover {
+    background-color: rgba(150, 150, 150, 0.9); /* Color de fondo más oscuro al pasar el mouse */
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); /* Sombreado más intenso al hacer hover */
+}
     </style>
 </head>
 <body>
@@ -136,7 +149,7 @@
 
         <p>¡Hola, apostadores! </p>
 
-<p>Estoy emocionado de ofrecerte un paquete exclusivo de 10 pronósticos para el próximo 26 de septiembre de 2024. Estos pronósticos están disponibles solo por correo electrónico y por un precio especial de 100 dólares.</p>
+<p>Estoy emocionado de ofrecerte un paquete exclusivo de 10 pronósticos para el próximo 26 de septiembre de 2024. Estos pronósticos están disponibles solo por <span class="email-link" onclick="copyToClipboard('elmatematicofeliz@gmail.com')">correo electrónico</span> y por un precio especial de 100 dólares.</p>
 
 <h3>¿Por Qué Invertir en Mis Pronósticos?</h3>
 
